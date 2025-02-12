@@ -436,7 +436,7 @@ local function netStrings_sub_netStrings(argv)
 	return 0
 end
 
--- eg: lua ipops.lua netStrings_test_netStrings "192.168.15.0/24" "192.168.15.0/29"
+-- eg: lua ipops.lua netStrings_test_netStrings "192.168.1.0/24" "192.168.1.0/29"
 local function netStrings_test_netStrings(argv)
 	local netString
 	local rangeSetA = {}

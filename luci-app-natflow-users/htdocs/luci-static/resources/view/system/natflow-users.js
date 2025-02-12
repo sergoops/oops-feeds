@@ -197,7 +197,7 @@ return view.extend({
 		o = s.option(form.Value, 'sipgrp', _('IP range'),
 			_('Can be a single or multiple ipaddr(s)(/cidr) or iprange, split with comma (e.g. "192.168.100.0/24,1.2.3.4,172.16.0.100-172.16.0.111") without quotes'));
 		o.rmempty = false;
-		o.placeholder = '192.168.15.2-192.168.15.254'
+		o.placeholder = '192.168.1.2-192.168.1.254'
 		o.validate = function(section_id, value) {
 			return nets_validate(value);
 		}

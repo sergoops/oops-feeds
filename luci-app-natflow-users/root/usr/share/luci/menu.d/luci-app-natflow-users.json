@@ -17,7 +17,7 @@
 	},
 	"admin/system/users": {
 		"title": "Users",
-		"order": 990,
+		"order": 89,
 		"action": {
 			"type": "view",
 			"path": "system/natflow-users"
